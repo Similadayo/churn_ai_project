@@ -7,3 +7,5 @@ streamlit
 joblib
 shap
 plotly
+altair
+Pillow
