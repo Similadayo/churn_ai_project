@@ -6,6 +6,30 @@ and support retention strategies.
 
 ---
 
+## ⚡ Quick Start (just want to run it?)
+
+**Non-technical user?** Open **[HOW_TO_RUN.md](HOW_TO_RUN.md)** — it has step-by-step,
+plain-English instructions.
+
+The short version:
+
+| Your setup | What to do |
+| ---------- | ---------- |
+| 🪟 **Windows** | Double-click **`run.bat`** |
+| 🍎 **Mac / Linux** | Run **`bash run.sh`** |
+
+The launcher creates its own environment, installs everything, and opens the
+dashboard in your browser automatically. **A trained model is already included**,
+so you do *not* need to run the training steps just to use the app.
+
+> ℹ️ The detailed manual steps (create venv, install, train, etc.) are in the
+> *Installation Guide* further down — they're optional and mainly for developers.
+>
+> 🐳 *Developers:* a `Dockerfile` and `docker-compose.yml` are also included
+> (`docker compose up`, then open localhost:8501).
+
+---
+
 ## 🚀 Project Overview
 
 The system uses **Python, scikit-learn, Streamlit, and SHAP** to create an end-to-end pipeline for:

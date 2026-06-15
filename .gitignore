@@ -1,3 +1,7 @@
 Layman_Explanation_Report.md
 
 /venv/
+__pycache__/
+*.pyc
+*.zip
+.DS_Store
